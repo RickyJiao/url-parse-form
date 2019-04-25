@@ -1,0 +1,49 @@
+{
+  "name": "url-parse-form",
+  "version": "0.0.1",
+  "description": "A utility form to visualize/inspect URL",
+  "keywords": [
+    "React",
+    "Url",
+    "visualize"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && NODE_ENV=prod webpack --progress --profile --bail",
+    "build:dev": "rimraf dist && webpack --progress --profile --bail"
+  },
+  "author": {
+    "name": "Ricky Jiao",
+    "email": "ricky.jiao86@gmail.com"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RickyJiao/url-parse-form.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.5.1",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
